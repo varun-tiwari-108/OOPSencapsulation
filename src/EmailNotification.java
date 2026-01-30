@@ -2,5 +2,8 @@ public class EmailNotification implements Notification{
     @Override
     public void sendNotification(String message) {
         System.out.println(message + " Sent by email");
+
+        // Old: Twilio API
+        // New: AWS SNS API
     }
 }
